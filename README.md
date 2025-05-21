@@ -1,6 +1,8 @@
 The usb zigbee module on the cc2531 chip did not work for me. There was no driver in the linux cdc-acm kernel. 
 In order not to rebuild the kernel, I used this patch.
-
+---
+It was tested only on Ubuntu noble kernel 6.6.63-ky.
+---
 
 Who doesn't have linux kernel current installed:
 
