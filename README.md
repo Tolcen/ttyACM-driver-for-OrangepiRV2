@@ -19,5 +19,9 @@ Who doesn't have linux kernel current installed:
 The cdc-acm.ko file will appear in the folder. 
 
     modprobe /....../....../ttyACM-driver-for-OrangepiRV2/cdc-acm.ko
+----
+For homeassistant to access ttyACM0, I had to register in rc.local:
+
+      chmod 777 /dev/ttyACM0
 
     
