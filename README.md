@@ -12,6 +12,7 @@ cd ttyACM-driver-for-OrangepiRV2
 make
 
 The cdc-acm.ko file will appear in the folder. 
+
 modprobe /....../....../ttyACM-driver-for-OrangepiRV2/cdc-acm.ko
 
     
