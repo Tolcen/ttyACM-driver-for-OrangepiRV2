@@ -6,7 +6,7 @@ It was tested only on Ubuntu noble kernel 6.6.63-ky orangepirv2(riscv64)
 
 Who doesn't have linux kernel current installed:
 
-    sudo dpkg -i /opt/linux-headers-current-ky_1.x.x_riscv64.deb
+    sudo dpkg -i /opt/linux-headers-current-ky_1.0.0_riscv64.deb
 
 ------
 
